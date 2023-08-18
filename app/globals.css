@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position:absolute;
+    width:24px;
+    height:2px;
+    top: 0;
+    left: 0;
+    background: #000000;
+    transform:rotate(0);
+    transition:all 0.5s;
+} 
